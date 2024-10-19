@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ofd6+2l/xtw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\13045\\Desktop\\please-work-god-master\\please work god.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\13045\\.nuget\\packages\\raylib-cs\\6.1.1\\raylib-cs.6.1.1.nupkg.sha512",
+    "C:\\Users\\13045\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
