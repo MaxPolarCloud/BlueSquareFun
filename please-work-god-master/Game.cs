@@ -13,7 +13,7 @@ namespace Game10003
         {
             Window.SetTitle("Toggle Size");
             Window.SetSize(400, 400);
-            smallSize = normalSize / 2; //calculator the smallSize by making it equal to normalSize divided by 2
+            smallSize = normalSize / 2; //calculate the smallSize by making it equal to normalSize divided by 2
         }
 
 
@@ -34,8 +34,25 @@ namespace Game10003
                 currentSize = normalSize; //set to normal size if it isnt pressed
             }
 
-            //set fill color to blue
-            Draw.FillColor = Color.Blue;
+            //update color to different shades of blue
+            Color currentColor;
+            if (currentSize == smallSize)
+            {
+                currentColor = Color.Cyan; //smallsize gets Cyan
+            }
+            else if (currentSize == normalSize)
+            {
+                currentColor = Color.Teal; //medium size gets Teal
+            }
+            else
+            {
+                currentColor = Color.Blue; //default set to Blue
+            }
+
+            
+
+            //set fill color to change different shades of blue
+            Draw.FillColor = currentColor; 
 
             //draws the square with the currentsize
             Draw.Square(100, 100, currentSize);
